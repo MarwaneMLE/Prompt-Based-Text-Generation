@@ -1,7 +1,6 @@
 from groq import Groq
 
 def ask_llama(message): 
-    #GROQ_API_KEY = "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"
     client = Groq(api_key=GROQ_API_KEY)
 
     completion = client.chat.completions.create(
